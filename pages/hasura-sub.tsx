@@ -17,8 +17,8 @@ const FetchSub: VFC = () => {
           </p>
         )
       })}
-      <Link href="/hasura-sub">
-        <a className="mt-6">Next</a>
+      <Link href="/hasura-main">
+        <a className="mt-6">Back</a>
       </Link>
     </Layout>
   )
