@@ -24,9 +24,9 @@ export const useCreateForm = () => {
   const usernameChange = (e: ChangeEvent<HTMLInputElement>) => {
     setUsername(e.target.value)
   }
-  const printMsg = () => {
+  const printMsg = useCallback(() => {
     console.log('Hello')
-  }
+  },[])
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     try {

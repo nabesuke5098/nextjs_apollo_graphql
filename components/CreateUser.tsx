@@ -33,7 +33,7 @@ export const CreateUser: VFC = () => {
           className="mb-3 px-3 py-2 border border-gray-300"
           placeholder="New user ?"
           type="text"
-          value="{username}"
+          value={username}
           onChange={usernameChange}
         />
         <button
