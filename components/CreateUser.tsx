@@ -43,7 +43,7 @@ export const CreateUser: VFC = () => {
           Submit
         </button>
       </form>
-      <Child printMsg={printMsg} />
+      <Child printMsg={printMsg} handleSubmit={handleSubmit} />
     </>
   )
 }
