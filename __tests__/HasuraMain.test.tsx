@@ -27,5 +27,7 @@ describe('Hasura Fetch Test Cases', () => {
     })
     render(page)
     expect(await screen.findByText('Hasura main page')).toBeInTheDocument()
+    expect(await screen.findByText('Test user A')).toBeInTheDocument()
+    expect(await screen.findByText('Test user B')).toBeInTheDocument()
   })
 })
